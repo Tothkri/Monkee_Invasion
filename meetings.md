@@ -5,6 +5,7 @@ The theme of the game, which will be a Tower defense game, where the monkeys def
 We started to setup the VCS environment as well.
 
 Meeting 2: (2022.09.30)
+
 Talking about VCS, about who does what:
 Olivér: GUI with JavaFX
 Kristóf & Ákos: inventing the model of the game
