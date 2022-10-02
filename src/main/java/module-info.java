@@ -1,8 +1,7 @@
-module com.example.demo {
+module View {
     requires javafx.controls;
     requires javafx.fxml;
 
-
-    opens com.example.demo to javafx.fxml;
-    exports com.example.demo;
+    opens View to javafx.fxml;
+    exports View;
 }
