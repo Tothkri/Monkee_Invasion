@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="640.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.GameController">
+   <children>
+      <AnchorPane layoutY="76.0" prefHeight="564.0" prefWidth="135.0">
+         <children>
+            <Button layoutY="4.0" mnemonicParsing="false" onAction="#purchaseTower" prefHeight="99.0" prefWidth="135.0" text="Tower1" />
+            <Button layoutY="103.0" mnemonicParsing="false" prefHeight="99.0" prefWidth="135.0" text="Tower2" />
+            <Button layoutY="202.0" mnemonicParsing="false" prefHeight="99.0" prefWidth="135.0" text="Tower3" />
+            <Button layoutY="465.0" mnemonicParsing="false" prefHeight="99.0" prefWidth="135.0" text="End Turn" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="135.0" layoutY="82.0" prefHeight="557.0" prefWidth="506.0" />
+      <DialogPane fx:id="ActionPane" layoutX="208.0" layoutY="29.0" />
+   </children>
+</AnchorPane>
